@@ -28,20 +28,16 @@ function App() {
       graduationYear: graduationYear,
       graduated: graduated
     }
-    console.log(newStudent);
-    const newList = [newStudent, ...studentsData];
+    const newList = [newStudent, ...students];
     setStudents(newList);
 
-/*     let newMovie = {}
-    newMovie.url = url;
-    newMovie.rating = rating;
-    newMovie.title = title;
-    setTitle("");
-    setRating(1);
-    setUrl("");
-
-    const newList = [newMovie, ...moviesToDisplay];
-    setMoviesToDisplay(newList); */
+    setFullname("");
+    setImage("");
+    setPhone("");
+    setEmail("");
+    setProgram("-- None --");
+    setGraduationYear(2023);
+    setGraduated(false);
   }
 
 
